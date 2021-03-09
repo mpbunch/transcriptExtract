@@ -32,7 +32,7 @@ import multiprocessing as mp
 import math
 
 
-def make_chunks():
+def make_chunks(path):
     """
         Splitting the large audio file into chunks
     """
