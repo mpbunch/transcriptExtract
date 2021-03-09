@@ -9,6 +9,11 @@ Install requirements.
 pip install -r requirements.txt
 ```
 
+FFMPEG is required.
+
+Google how to install ffmpeg on my OS (osx, windows, linux)
+
+OSX, brew is the easiest way
 ## Usage
 
 ```
