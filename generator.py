@@ -1,13 +1,3 @@
-"""
-    HOW TO USE
-    1. pip install any missing libraries
-    2. google how to install ffmpgeg on my OS (maybe brew on osx?)
-    3. audio files must be in .wav format
-    4. find a sample wav file
-    5. copy the wav file into the same directory as this script
-    6. within terminal, use the following command
-        python nameofscript.py -f the_name_of_wav_file.wav -c 50
-"""
 # Imports
 # System, to gain access to command line arguments
 import sys
