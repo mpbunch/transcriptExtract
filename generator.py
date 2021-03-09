@@ -62,14 +62,14 @@ def make_transcript(chunks, process_id):
         # on file_name convention
         # {process_id} = [1, 2, 3, ...] global
         # {i} = chunk index [1, 2, 3] for each process
-        # {input_name} = audiosample name (eg: class1audio)
+        # {input_name} = audiosample name (eg: demo)
         # what if you run two audio samples, you don't want them
         # overwritting each other
         # so you might end up with
-        #   21_class1audio.wav
-        #   01_class1audio.wav
-        #   11_class1audio.wav
-        #   02_class1audio.wav
+        #   21_demo.wav
+        #   01_demo.wav
+        #   11_demo.wav
+        #   02_demo.wav
 
         # At this point we don't care about the order of the audio files
         # but in the next step we will care about the transcript generation
